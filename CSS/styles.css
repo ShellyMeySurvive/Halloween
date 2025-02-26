@@ -14,13 +14,16 @@ header {
     flex-wrap: wrap;
 }
 
-nav{align-self: center;}
+nav {align-self: center;
+}
+
 nav a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     padding: 3px 9px;
 }
+
 nav a:hover {
     color: orange;
 }
@@ -31,10 +34,12 @@ article {
     flex-direction: column;
     padding: 15px;
 }
+
 article span {
     flex-grow: 1;
     text-align: center;
 }
+
 #features div{
     display: flex;
     column-gap: 20px;
@@ -42,22 +47,30 @@ article span {
     flex-wrap: wrap;
     row-gap: 20px;
 }
+
 h1 {
     font-family: 'Allison', cursive;
     font-size: 80px;
     color: orange;
 }
+
 h2 {
     font-family: 'Allison', cursive;
     font-size: 60px;
     color: white;
 }
+
+#gallery h2 {
+    text-align: center;
+}
+
 h3 {
     font-family: 'Allison', cursive;
     font-size: 80px;
     color: orange;
     text-align: center ;
 }
+
 h4 {
     font-family: 'Allison', cursive;
     font-size: 60px;
@@ -91,12 +104,37 @@ article a {
     padding: 40px 90px;
 }
 
+#gallery div {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+
+} 
+#gallery image {
+    flex: 1 1 230px;
+}
+
+
+
+
 footer {
     background-color: orange;
-    padding: 0 90px;
-
+    padding: 20px 90px;
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
 }
 footer i {
     font-size: 30px;
     color: white;
+}
+
+footer h4 {
+    flex-grow: 1;
+}
+
+.icons{
+    align-self: center;
 }
