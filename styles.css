@@ -1,0 +1,82 @@
+/* font-family: 'Allison', cursive;
+font-family: 'Raleway', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    background-color: black;
+    padding: 0 90px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 9px;
+
+}
+nav a:hover {
+    color: orange;
+}
+article {
+    background-color: purple;
+}
+h1 {
+    font-family: 'Allison', cursive;
+    font-size: 80px;
+    color: orange;
+
+}
+h2 {
+    font-family: 'Allison', cursive;
+    font-size: 60px;
+    color: white;
+}
+h3 {
+    font-family: 'Allison', cursive;
+    font-size: 80px;
+    color: orange;
+}
+h4 {
+    font-family: 'Allison', cursive;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+
+}
+h5 {
+    color: purple;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p {
+    color: rgb(235, 226, 245);
+}
+i {
+    font-size: 50px;
+    color: orange;
+}
+article a {
+    background-color: white;
+    color: purple;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 9px;
+}
+#gallery {
+    background-color: black;
+    padding: 40px 90px;
+}
+
+footer {
+    background-color: orange;
+    padding: 0 90px;
+
+}
+footer i {
+    font-size: 30px;
+    color: white;
+}
