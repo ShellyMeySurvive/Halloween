@@ -48,6 +48,10 @@ article span {
     row-gap: 20px;
 }
 
+#features{
+    padding-bottom: 40px;
+}
+
 h1 {
     font-family: 'Allison', cursive;
     font-size: 80px;
